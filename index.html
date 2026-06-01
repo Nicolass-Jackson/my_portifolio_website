@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <a href="#home" class="logo">Jackson's Portfolio<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- HOME -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <span class="greeting">Hello, I'm</span>
+            <h1>Jackson</h1>
+            <h2 class="typing-text">Computer Science Student</h2>
+            <p>Building modern web and software solutions that make a difference.</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">View Projects</a>
+                <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
+            <div class="social-links">
+                <a href="https://github.com/Nicolass-Jackson"GitHub><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/jacksonsichangwa"LinkedIn><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://x.com/Jackson4484135"Twitter><i class="fab fa-twitter"></i></a>
+                <a href="mailto:sichangwajackson24@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="profile-card">
+                <div class="profile-img">
+                    <img src="images/profile.jpeg" alt="Profile Photo" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 200 200%22><rect fill=%22%230a192f%22 width=%22200%22 height=%22200%22/><text x=%22100%22 y=%22110%22 fill=%22white%22 text-anchor=%22middle%22 font-size=%2240%22>👨‍💻</text></svg>'" />
+                </div>
+                <div class="profile-badge">Open to Work</div>
+            </div>  
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="about">
+        <div class="section-header">
+            <span class="section-subtitle">Get to know me</span>
+            <h2 class="section-title">About Me</h2>
+        </div>
+        <div class="about-container">
+            <div class="about-image">
+                <div class="image-frame">
+                    <img src="images/about.jpeg" alt="About Photo" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 200 200%22><rect fill=%22%230a192f%22 width=%22200%22 height=%22200%22/><text x=%22100%22 y=%22110%22 fill=%22white%22 text-anchor=%22middle%22 font-size=%2240%22>💻</text></svg>'" />
+                </div>
+            </div>
+            <div class="about-content">
+                <p class="about-intro">
+                    I am a <strong>Computer Science student</strong> passionate about building web
+                    applications, software systems, and user-friendly digital experiences.
+                    I love turning ideas into reality through code.
+                </p>
+                
+                <h3>Technical Skills</h3>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <i class="fab fa-python"></i>
+                        <span>Python</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-csharp"></i>
+                        <span>C#</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-js"></i>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-html5"></i>
+                        <span>HTML</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-css3-alt"></i>
+                        <span>CSS</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-git-alt"></i>
+                        <span>Git</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-figma"></i>
+                        <span>Figma</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-paint-brush"></i>
+                        <span>Photoshop</span>
+                    </div>
+                </div>
+
+                <div class="about-stats">
+                    <div class="stat">
+                        <span class="stat-number">3+</span>
+                        <span class="stat-label">Projects Completed</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">1+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="projects">
+        <div class="section-header">
+            <span class="section-subtitle">What I've built</span>
+            <h2 class="section-title">My Projects</h2>
+        </div>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-icon">
+                    <i class="fas fa-shopping-cart"></i>
+                </div>
+                <h3>Procurement System</h3>
+                <p>Full-stack procurement and supplier management system with real-time inventory tracking.</p>
+                <div class="project-tags">
+                    <span>React</span>
+                    <span>Node.js</span>
+                    <span>MongoDB</span>
+                </div>
+                <a href="#" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+            </div>
+
+            <div class="project-card">
+                <div class="project-icon">
+                    <i class="fas fa-server"></i>
+                </div>
+                <h3>REST API</h3>
+                <p>Backend API built using modern web technologies with authentication and data validation.</p>
+                <div class="project-tags">
+                    <span>Express</span>
+                    <span>JWT</span>
+                    <span>PostgreSQL</span>
+                </div>
+                <a href="#" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+            </div>
+
+            <div class="project-card">
+                <div class="project-icon">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <h3>Algorithm Visualizer</h3>
+                <p>Interactive data structures and algorithm visualizer for learning purposes.</p>
+                <div class="project-tags">
+                    <span>JavaScript</span>
+                    <span>CSS Animations</span>
+                    <span>HTML5</span>
+                </div>
+                <a href="#" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact">
+        <div class="section-header">
+            <span class="section-subtitle">Get in touch</span>
+            <h2 class="section-title">Contact Me</h2>
+        </div>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h4>Email</h4>
+                        <p>sichangwajackson24@gmail.com</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h4>Location</h4>
+                        <p>Available for remote work</p>
+                    </div>
+                </div>
+                <div class="contact-social">
+                    <a href="https://github.com/Nicolass-Jackson"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/jacksonsichangw"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://x.com/Jackson4484135"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <form class="contact-form" action="mailto:sichangwajackson24@gmail.com" method="POST" enctype="text/plain">
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Your Name" required />
+                    <i class="fas fa-user"></i>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="Your Email" required />
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <div class="form-group">
+                    <input type="text" name="subject" placeholder="Subject" required />
+                    <i class="fas fa-tag"></i>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                    <i class="fas fa-comment"></i>
+                </div>
+                <button type="submit" class="btn btn-primary">
+                    <i class="fas fa-paper-plane"></i> Send Message
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2026 My Portfolio. Built with excellence</p>
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+</body>
+</html>
