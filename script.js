@@ -74,7 +74,7 @@ function initTypingEffect() {
     const typingElement = document.querySelector('.typing-text');
     if (!typingElement) return;
 
-    const texts = ['Computer Science Student', 'Web Developer', 'Problem Solver', 'Tech Enthusiast'];
+    const texts = ['Modern AI Engineer', 'Web Developer', 'Problem Solver', 'Tech Enthusiast'];
     let textIndex = 0;
     let charIndex = 0;
     let isDeleting = false;

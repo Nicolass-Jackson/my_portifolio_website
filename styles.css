@@ -555,6 +555,25 @@ section {
 }
 
 /* ============================================
+   CV Section
+   ============================================ */
+.cv-section {
+    background: var(--bg-white);
+}
+
+.cv-content {
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.cv-content p {
+    color: var(--text-secondary);
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+
+/* ============================================
    Contact Section
    ============================================ */
 .contact {
